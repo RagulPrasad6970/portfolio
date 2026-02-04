@@ -1,114 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ragul Prasad | Data Science Portfolio</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragul Prasad | Data Science Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>Ragul Prasad A</h1>
-  <p>Data Science Student | Machine Learning | AI Research</p>
-  <p>📍 Coimbatore, India | 📧 ragulprasad003@gmail.com | 📞 +91 9894598959</p>
-
-  <a href="Ragul_Prasad_Resume.pdf" download class="resume-btn">
-    ⬇ Download Resume
-  </a>
+    <h1>Ragul Prasad A</h1>
+    <p>Data Science Student | Machine Learning | Analytics</p>
+    <div class="links">
+        <a href="mailto:ragulprasad003@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/ragul-prasad-0305m1209" target="_blank">LinkedIn</a>
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="resume.pdf" target="_blank">Resume</a>
+    </div>
 </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>
-  <a href="#education">Education</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-  <h2 class="section-title">About Me</h2>
-  <div class="card">
-    Highly motivated Data Science student with strong foundations in Machine Learning, Deep Learning, NLP, Data Analytics, and Statistics. Passionate about solving real-world problems using AI-driven solutions and seeking meaningful internship opportunities.
-  </div>
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am a Data Science student with strong interests in predictive modeling, data analysis,
+        and data visualization. I enjoy working with real-world datasets to extract insights and
+        build data-driven solutions, especially in sports analytics and applied machine learning.
+    </p>
 </section>
 
-<section id="skills">
-  <h2 class="section-title">Technical Skills</h2>
-  <div class="card skills">
-    <span>Python</span><span>C</span><span>C++</span><span>SQL</span><span>R</span><span>MATLAB</span>
-    <span>Power BI</span><span>Excel</span><span>Jupyter</span><span>MongoDB</span><span>MySQL</span>
-    <span>PostgreSQL</span><span>HIVE</span><span>VS Code</span>
-  </div>
+<section>
+    <h2>Skills</h2>
+    <ul class="skills">
+        <li>Python</li>
+        <li>SQL</li>
+        <li>R Programming</li>
+        <li>Pandas & NumPy</li>
+        <li>Machine Learning</li>
+        <li>Data Visualization</li>
+        <li>Power BI</li>
+        <li>Git & GitHub</li>
+    </ul>
 </section>
 
-<section id="projects">
-  <h2 class="section-title">Projects</h2>
+<section>
+    <h2>Projects</h2>
 
-  <div class="card">
-    <h3>Smart Split – Intelligent Expense & Settlement Management System</h3>
-    <ul>
-      <li>Designed and developed a full-stack application for managing group and personal expenses.</li>
-      <li>Implemented Google OAuth authentication and secure REST APIs.</li>
-      <li>Built an optimized settlement algorithm to minimize number of transactions.</li>
-      <li>Developed dashboards for monthly and category-wise expense analytics.</li>
-      <li><strong>Technologies:</strong> Django, MySQL, REST API, HTML, CSS, Plotly</li>
-    </ul>
-  </div>
+    <div class="project">
+        <h3>Parameter-Efficient Aspect-Based Sentiment Analysis</h3>
+        <p>
+            Built an ABSA model using BERT with Houlsby-style adapters, reducing trainable parameters
+            by over 95% while maintaining competitive performance.
+        </p>
+        <p><strong>Tech:</strong> Python, BERT, NLP</p>
+        <a href="#">GitHub Repo</a>
+    </div>
 
-  <div class="card">
-    <h3>Parameter-Efficient Aspect-Based Sentiment Analysis using BERT</h3>
-    <ul>
-      <li>Developed an ABSA model using frozen BERT with Houlsby adapters.</li>
-      <li>Achieved strong performance with less than 5% trainable parameters.</li>
-      <li>Implemented joint learning for aspect extraction and sentiment classification.</li>
-      <li>Evaluated robustness using SemEval-2014 dataset.</li>
-      <li><strong>Technologies:</strong> Python, PyTorch, Transformers</li>
-    </ul>
-  </div>
+    <div class="project">
+        <h3>Indian Cricket Squad Performance Analysis</h3>
+        <p>
+            Analyzed five years of match data to evaluate player performance using batting, bowling,
+            and venue-based metrics. Provided strategy recommendations for Dubai conditions.
+        </p>
+        <p><strong>Tech:</strong> Python, Pandas, Matplotlib</p>
+        <a href="#">GitHub Repo</a>
+    </div>
 
-  <div class="card">
-    <h3>Used Car Price Prediction using Machine Learning</h3>
-    <ul>
-      <li>Performed EDA to identify key price-influencing factors.</li>
-      <li>Built ML models for accurate price prediction.</li>
-      <li>Visualized insights using Matplotlib.</li>
-      <li><strong>Technologies:</strong> Python, Pandas, Scikit-learn</li>
-    </ul>
-  </div>
+    <div class="project">
+        <h3>Used Car Price Prediction & Recommendation</h3>
+        <p>
+            Developed machine learning models to predict used car prices and identify key pricing
+            factors such as mileage, age, brand, and fuel type.
+        </p>
+        <p><strong>Tech:</strong> Python, Scikit-learn, Seaborn</p>
+        <a href="#">GitHub Repo</a>
+    </div>
 
-  <div class="card">
-    <h3>Library Management System</h3>
-    <ul>
-      <li>Developed a system for managing books, members, and transactions.</li>
-      <li>Built backend using Python and MySQL.</li>
-      <li><strong>Technologies:</strong> Python, MySQL, HTML</li>
-    </ul>
-  </div>
+    <div class="project">
+        <h3>Library Management System</h3>
+        <p>
+            Built a system for managing books, members, and transactions with improved operational
+            efficiency.
+        </p>
+        <p><strong>Tech:</strong> Python, MySQL, HTML</p>
+        <a href="#">GitHub Repo</a>
+    </div>
+
 </section>
 
-<section id="education">
-  <h2 class="section-title">Education</h2>
-  <div class="card">
-    <strong>Integrated M.Sc Data Science</strong> – Amrita Vishwa Vidyapeetham (2022–2027)  
-    <br>CGPA: 7.8/10
-  </div>
-</section>
-
-<section id="contact">
-  <h2 class="section-title">Contact</h2>
-  <div class="card contact">
-    📧 Email: ragulprasad003@gmail.com <br>
-    📍 Location: Coimbatore, India <br>
-    🔗 GitHub: <a href="#">https://github.com/RagulPrasad6970</a> <br>
-    🔗 LinkedIn: <a href="#">www.linkedin.com/in/ragul-prasad-1593b6319</a>
-  </div>
+<section>
+    <h2>Certifications</h2>
+    <ul>
+        <li>Python for Data Science – Code Basics</li>
+        <li>Data Analysis using Python – Cognizant</li>
+        <li>Data Visualization using Python – Cognizant</li>
+        <li>Machine Learning – Cognizant</li>
+    </ul>
 </section>
 
 <footer>
-  © 2026 Ragul Prasad | Built with HTML & CSS
+    <p>© 2026 Ragul Prasad A</p>
 </footer>
 
 </body>
