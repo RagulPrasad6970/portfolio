@@ -1,104 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ragul Prasad | Data Science Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ragul Prasad A | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-<header>
-    <h1>Ragul Prasad A</h1>
-    <p>Data Science Student | Machine Learning | Analytics</p>
-    <div class="links">
-        <a href="mailto:ragulprasad003@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/ragul-prasad-0305m1209" target="_blank">LinkedIn</a>
-        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-        <a href="resume.pdf" target="_blank">Resume</a>
+<!-- ===== TOP HEADER ===== -->
+<header class="top-header">
+  <div class="header-inner">
+    <div class="profile-box">
+      <img src="profile.jpeg" alt="Ragul Prasad A">
+      <div>
+        <h1>Ragul Prasad A</h1>
+        <p>Data Science Student</p>
+      </div>
     </div>
+
+    <div class="header-links">
+      <a href="mailto:ragulprasad003@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://github.com/yourusername" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/ragul-prasad-0305m1209" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="resume.pdf" target="_blank" class="resume-btn">
+        <i class="fa-solid fa-download"></i> Resume
+      </a>
+    </div>
+  </div>
 </header>
 
-<section>
-    <h2>About Me</h2>
+<!-- ===== MAIN CONTENT ===== -->
+<main class="container">
+
+  <!-- PROFILE -->
+  <section class="section">
+    <h2>Profile</h2>
     <p>
-        I am a Data Science student with strong interests in predictive modeling, data analysis,
-        and data visualization. I enjoy working with real-world datasets to extract insights and
-        build data-driven solutions, especially in sports analytics and applied machine learning.
+      Data Science student with strong interests in predictive modeling, data analysis, and data
+      visualization. Experienced in working with real-world datasets to extract insights and build
+      data-driven solutions, with a particular focus on sports analytics and applied machine learning.
     </p>
-</section>
+  </section>
 
-<section>
-    <h2>Skills</h2>
-    <ul class="skills">
-        <li>Python</li>
-        <li>SQL</li>
-        <li>R Programming</li>
-        <li>Pandas & NumPy</li>
-        <li>Machine Learning</li>
-        <li>Data Visualization</li>
-        <li>Power BI</li>
-        <li>Git & GitHub</li>
-    </ul>
-</section>
+  <!-- EDUCATION -->
+  <section class="section">
+    <h2>Education</h2>
 
-<section>
-    <h2>Projects</h2>
+    <div class="edu-row">
+      <h3>Integrated MSc in Data Science</h3>
+      <span>Amrita Vishwa Vidyapeetham, Coimbatore</span>
+      <span>2022 – 2027 | CGPA: 7.88 / 10</span>
+    </div>
 
-    <div class="project">
+    <div class="edu-row">
+      <h3>Higher Secondary Certificate (HSC)</h3>
+      <span>GKD Matric Hr Sec School, Coimbatore</span>
+      <span>2021 – 2022 | Percentage: 88.33%</span>
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section">
+    <h2>Projects & Research</h2>
+
+    <div class="grid">
+
+      <div class="card">
         <h3>Parameter-Efficient Aspect-Based Sentiment Analysis</h3>
+        <span>Dec 2025 – Mar 2026</span>
         <p>
-            Built an ABSA model using BERT with Houlsby-style adapters, reducing trainable parameters
-            by over 95% while maintaining competitive performance.
+          Developed a joint Aspect-Based Sentiment Analysis (ABSA) model using BERT-base with
+          Houlsby-style adapters for parameter-efficient fine-tuning.
         </p>
-        <p><strong>Tech:</strong> Python, BERT, NLP</p>
-        <a href="#">GitHub Repo</a>
-    </div>
+        <p>
+          Reduced trainable parameters by over 95% compared to full fine-tuning while maintaining
+          competitive performance.
+        </p>
+        <p class="tech">Python, BERT, NLP</p>
+      </div>
 
-    <div class="project">
+      <div class="card">
         <h3>Indian Cricket Squad Performance Analysis</h3>
+        <span>Jan 2025 – Feb 2025</span>
         <p>
-            Analyzed five years of match data to evaluate player performance using batting, bowling,
-            and venue-based metrics. Provided strategy recommendations for Dubai conditions.
+          Analyzed five years of Indian cricket team performance data, evaluating batting, bowling,
+          and venue-based trends.
         </p>
-        <p><strong>Tech:</strong> Python, Pandas, Matplotlib</p>
-        <a href="#">GitHub Repo</a>
-    </div>
+        <p>
+          Provided data-driven strategy recommendations for optimizing team performance under
+          Dubai pitch conditions.
+        </p>
+        <p class="tech">Python, Pandas, Matplotlib, Seaborn</p>
+      </div>
 
-    <div class="project">
+      <div class="card">
         <h3>Used Car Price Prediction & Recommendation</h3>
+        <span>Feb 2025 – Mar 2025</span>
         <p>
-            Developed machine learning models to predict used car prices and identify key pricing
-            factors such as mileage, age, brand, and fuel type.
+          Built machine learning models to predict used car prices using real-world market data and
+          identified key pricing factors such as mileage, age, brand, and fuel type.
         </p>
-        <p><strong>Tech:</strong> Python, Scikit-learn, Seaborn</p>
-        <a href="#">GitHub Repo</a>
-    </div>
+        <p class="tech">Python, Scikit-learn, Regression Models</p>
+      </div>
 
-    <div class="project">
+      <div class="card">
         <h3>Library Management System</h3>
+        <span>Jul 2024 – Nov 2024</span>
         <p>
-            Built a system for managing books, members, and transactions with improved operational
-            efficiency.
+          Developed a system for book cataloging, member management, and transaction tracking with
+          improved efficiency and accuracy.
         </p>
-        <p><strong>Tech:</strong> Python, MySQL, HTML</p>
-        <a href="#">GitHub Repo</a>
+        <p class="tech">Python, MySQL, HTML</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section">
+    <h2>Skills</h2>
+
+    <div class="skills">
+      <span>Python</span>
+      <span>SQL</span>
+      <span>R Programming</span>
+      <span>MATLAB</span>
+      <span>Pandas</span>
+      <span>NumPy</span>
+      <span>Machine Learning</span>
+      <span>Scikit-learn</span>
+      <span>Data Visualization</span>
+      <span>Power BI</span>
+      <span>Git</span>
+      <span>GitHub</span>
+      <span>KNIME</span>
+      <span>UiPath</span>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section">
+    <h2>Certifications</h2>
+
+    <div class="card small">
+      <h3>Python for Data Science</h3>
+      <span>Code Basics</span>
     </div>
 
-</section>
+    <div class="card small">
+      <h3>Data Analysis using Python</h3>
+      <span>Cognizant</span>
+    </div>
 
-<section>
-    <h2>Certifications</h2>
-    <ul>
-        <li>Python for Data Science – Code Basics</li>
-        <li>Data Analysis using Python – Cognizant</li>
-        <li>Data Visualization using Python – Cognizant</li>
-        <li>Machine Learning – Cognizant</li>
-    </ul>
-</section>
+    <div class="card small">
+      <h3>Data Visualization using Python</h3>
+      <span>Cognizant</span>
+    </div>
 
-<footer>
-    <p>© 2026 Ragul Prasad A</p>
+    <div class="card small">
+      <h3>Machine Learning</h3>
+      <span>Cognizant</span>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section">
+    <h2>Contact</h2>
+
+    <p><i class="fa-solid fa-envelope"></i> ragulprasad003@gmail.com</p>
+    <p><i class="fa-solid fa-phone"></i> +91 98945 98959</p>
+    <p><i class="fa-brands fa-github"></i> github.com/yourusername</p>
+    <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/ragul-prasad-0305m1209</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  © 2026 Ragul Prasad A
 </footer>
 
 </body>
